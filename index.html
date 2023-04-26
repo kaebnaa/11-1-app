@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .modal{ 
+            width: 100vw;   
+            height: 100vh;
+            background-color: rgba(0,0,0 , 0.3);
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            visibility: hidden;
+        }
+        button{
+            padding: 10px 20px;
+        }
+        .form{
+            width: 300px;
+            height: 400px;
+            background-color: white;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <button>Log in</button>
+
+    <div class="modal">
+        <div class="form">
+            <button id="btn">X</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
